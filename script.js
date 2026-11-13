@@ -1,3 +1,4 @@
+const supabase = supabase.createClient('https://xnuwcsrvwkreklqqdutr.supabase.co', 'sb_publishable_AGEwrMJ_YWs-C6oFlCQNFg_049iVib-');
 
 document.addEventListener("DOMContentLoaded", function () {
 
