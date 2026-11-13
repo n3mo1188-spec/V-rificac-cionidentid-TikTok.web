@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
         event.preventDefault();
 
         const valor = codigo.value.trim();
+const { error } = await supabase.from('Test.n3m0').insert([{ demostración_de_código: valor }]);
 
         if (valor === "") {
             mensaje.textContent = "Introduce un código de demostración.";
