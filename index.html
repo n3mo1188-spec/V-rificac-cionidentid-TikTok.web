@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificar identidad</title>
+</head>
+<body>
+
+    <main class="pantalla">
+
+        <h2>Verificar identidad</h2>
+
+        <p>Escribe la contraseña para verificar la identidad</p>
+
+        <form id="formulario">
+
+            <input
+                type="text"
+                id="codigo"
+                placeholder="Introduce la contraseña"
+                autocomplete="off"
+                required
+            >
+
+            <button type="submit">Siguiente</button>
+
+        </form>
+
+        <p id="mensaje" aria-live="polite"></p>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
